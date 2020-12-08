@@ -268,7 +268,7 @@ p {
 /* skills Section */
 #skills .skills {
 	flex-direction: column;
-	text-align: center;
+	text-align: left;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 60px;
@@ -278,14 +278,11 @@ p {
 	margin: 0 auto;
 }
 #skills .skill-bottom {
-	display: flex;
-
-	
-	align-self: start;
+	display: flex;	
+	align-self: auto;
 	justify-content: last baseline;
 	flex-direction: row;
 	flex-wrap: unset;
-
 	margin-top: 40px;
 }
 #skills .skill-item {
@@ -293,7 +290,7 @@ p {
 	display: flex;
 	align-items: baseline;
 	position: absolute;
-	justify-content: center;
+	justify-content: left;
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
